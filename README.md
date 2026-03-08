@@ -1,46 +1,138 @@
-# 🚀 [3D AR Globe for Education]
-> [แอปพลิเคชัน AR นำเสนอลูกโลก พัฒนาด้วย Unity ]
+# 🚀 3D AR Globe for Education
+
+An **Augmented Reality (AR) educational application** that visualizes the Earth in 3D using marker-based AR technology.  
+This project helps users explore the Earth's structure interactively through a mobile AR experience.
 
 ---
 
-## 📸 Demo
+## 🌐 Demo
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/67c3b74d-addd-44ef-8f8c-9b14304ad6d9" width="600">
+  <img src="https://github.com/user-attachments/assets/67c3b74d-addd-44ef-8f8c-9b14304ad6d9" width="700">
 </p>
 
+---
+
 ## ✨ Key Features
-* **Interactive 3D Globe:** View the Earth from any angle using AR tracking.
-* **Earth Layers Visualization:** Interactive breakdown of the Earth's internal structure (Crust, Mantle, Outer Core, and Inner Core).
-* **Real-time Tracking:** High-stability AR experience powered by Vuforia.
+
+- 🌍 **Interactive 3D Globe**  
+  View the Earth from different angles using AR tracking.
+
+- 🧭 **Earth Layers Visualization**  
+  Explore the internal structure of the Earth including:
+  - Crust
+  - Mantle
+  - Outer Core
+  - Inner Core
+
+- 📷 **Real-time AR Tracking**  
+  Stable AR experience powered by **Vuforia Engine**.
+
+- 🎓 **Educational Purpose**  
+  Designed to help students better understand Earth's structure through visualization.
 
 ---
 
 ## 🛠 Tech Stack
-* **Engine:** Unity
-* **Language:** C#
-* **AR Framework:** Vuforia Engine
+
+This project was developed using:
+
+- **Game Engine:** Unity  
+- **Programming Language:** C#  
+- **AR Framework:** Vuforia Engine  
+- **Platform:** Android (APK)
 
 ---
 
-## ⚙️ How to Install & Run
+## 📁 Project Structure
 
-Since the project is compiled into an **APK** file, follow these steps to install it on your Android device:
+```
+3D-AR-Globe
+│
+├── Unity Project Files
+├── Assets
+│   ├── 3D Models
+│   ├── Textures
+│   └── Scripts
+└── Build
+    └── ARGlobe.apk
+```
 
-### 1. Requirements
-* An Android smartphone with a working camera.
-* Android version 7.0 (Nougat) or higher (recommended).
-* The printed **AR Marker** (The image used to trigger the 3D model).
+---
 
-### 2. Installation Steps
-1. **Transfer the APK:** Move the provided `.apk` file to your Android device via USB, Google Drive, or Bluetooth.
-2. **Enable Unknown Sources:** Go to `Settings > Security` and enable **"Install from Unknown Sources"** (or allow your browser/file manager to install apps).
-3. **Install:** Locate the APK file in your device's File Manager and tap it to install.
-4. **Permissions:** When opening the app for the first time, grant permission to use the **Camera** (Required for AR).
+## ⚙️ Installation Guide
 
-### 3. How to Use
-1. Launch the **3D AR Globe** app.
-2. Point your camera at the designated **Image Target / Marker**.
-3. The 3D Earth will appear instantly on your screen!
-4. Use on-screen UI buttons to toggle views of the Earth's internal layers.
+Since the application is distributed as an **APK file**, follow these steps to install it on your Android device.
+
+### 1️⃣ Requirements
+
+- Android smartphone with a working **camera**
+- Android **7.0 (Nougat)** or higher
+- The **AR Marker / Image Target** used to trigger the 3D model
+
+---
+
+### 2️⃣ Installation Steps
+
+1. **Transfer the APK file**
+
+Move the `.apk` file to your Android device using:
+- USB cable
+- Google Drive
+- Bluetooth
+- Cloud storage
+
+2. **Enable installation from unknown sources**
+
+Go to:
+
+```
+Settings → Security → Install unknown apps
+```
+
+Allow your **file manager or browser** to install applications.
+
+3. **Install the APK**
+
+Locate the `.apk` file in your **File Manager** and tap it to install.
+
+4. **Grant permissions**
+
+When opening the app for the first time, allow **Camera permission** for AR tracking.
+
+---
+
+## 🎮 How to Use
+
+1. Launch the **3D AR Globe** application.
+2. Point your phone's camera at the **AR Marker / Image Target**.
+3. The **3D Earth model** will appear on your screen.
+4. Use the UI buttons to **toggle the Earth's internal layers**.
+
+---
+
+## 🚀 Future Improvements
+
+Possible improvements for future versions:
+
+- Add **more educational information panels**
+- Add **interactive quizzes**
+- Support **multiple AR markers**
+- Improve **UI/UX design**
+- Add **animations for Earth's rotation and layers**
+
+---
+
+## 👩‍💻 Author
+
+**Paveekorn Kaewwattana (Prae)**  
+Computer Science Student  
+Faculty of Science and Technology  
+Huachiew Chalermprakiet University  
 
 
+---
+
+## 📄 License
+
+This project was created for **educational and portfolio purposes**.
